@@ -33,7 +33,6 @@ public class Movie extends AuditingEntity {
 
     @Comment("카테고리")
     @Column(name = "movie_category", nullable = false)
-//    @Enumerated(EnumType.STRING)
     private String movieCategory;
 
     @Comment("러닝타임")

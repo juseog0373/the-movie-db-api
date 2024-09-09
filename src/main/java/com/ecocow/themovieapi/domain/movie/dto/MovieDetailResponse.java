@@ -1,7 +1,5 @@
 package com.ecocow.themovieapi.domain.movie.dto;
 
-import com.ecocow.themovieapi.domain.movie.MovieController;
-import com.ecocow.themovieapi.domain.movie.entity.MovieCategory;
 import lombok.*;
 
 import java.time.LocalDateTime;

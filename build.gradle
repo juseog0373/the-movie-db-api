@@ -40,9 +40,8 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-web'
-
     // Swagger
-    implementation 'org.springdoc:springdoc-openapi-ui:1.5.9'
+    implementation 'org.springdoc:springdoc-openapi-ui:1.6.11'
 
     //querydsl 추가
     implementation "com.querydsl:querydsl-jpa:${queryDslVersion}"
